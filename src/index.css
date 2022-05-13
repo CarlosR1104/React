@@ -1,10 +1,12 @@
 body{
   background-color: #145f9cb0;
 }
-.App{
-  height: 100vh;
+.image{
+  height: 150px;
+  width: 100px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
+
