@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const UInav = (ref, textNav) => {
+export const UInav = (style, reference, textNav) => {
   return (
-    <a href={ref}>{textNav}</a>
+    <a className={style} href={reference}>{textNav}</a>
   )
 }
