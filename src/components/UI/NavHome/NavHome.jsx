@@ -1,22 +1,25 @@
 import React from 'react';
+//import { Link } from 'react-router-dom';
 import { UInav } from '../UINav/UInav';
 
 export const NavHome = () => {
   return (
-    
-    <nav className='navHome'>
+    <nav >
       <UInav 
-        style="nav" 
+        style="UInav" 
         reference="https://google.com" 
-        textNav="Home"/>
+        textNav="Home"
+        />
       <UInav
-        style="nav" 
+        style="UInav" 
         reference="https://google.com" 
-        textNav="AboutUS"/>
+        textNav="AboutUS"
+        />
       <UInav
-        style="nav" 
+        style="UInav" 
         reference="https://google.com" 
-        textNav="ContactusUS"/>
+        textNav="ContactusUS"
+        />
     </nav>
   )
 }
